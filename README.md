@@ -1,7 +1,20 @@
-# SonarQube Custom Plugin Qiskit
+# SonarQiskit – SonarQube Plugin for Quantum Software Quality Analysis
 
-This repository contains a custom SonarQube plugin designed to analyze Qiskit-based projects.  
-It includes a set of Java-based metrics, plugin settings, frontend resources, and localization files required to integrate Qiskit-related measurements into SonarQube 9.x.
+![License](https://img.shields.io/badge/license-EUPL%201.2-blue)
+![SonarQube](https://img.shields.io/badge/SonarQube-9.x-orange)
+![Qiskit](https://img.shields.io/badge/Qiskit-supported-purple)
+
+## 💡Overview
+
+SonarQiskit is a SonarQube custom plugin designed for static analysis and quality evaluation of hybrid classical-quantum software systems based on Qiskit.
+
+The project extends SonarQube with quantum-oriented metrics, analyzability mechanisms, and quality assessment capabilities tailored to Quantum Software Engineering (QSE).
+
+The plugin has been developed as part of ongoing research on:
+- quantum software quality,
+- hybrid systems maintainability,
+- static analysis for quantum programs,
+- and quantum software metrics.
 
 ---
 
@@ -70,14 +83,31 @@ After restarting, the plugin will appear inside the SonarQube environment.
 
 The repository includes a validation suite composed of representative quantum circuits implemented in Qiskit.
 
-To reproduce the validation:
+The validation dataset includes well-known quantum algorithms such as:
+- Bernstein–Vazirani
+- Deutsch–Jozsa
+- Grover
+- Shor
+- Quantum Phase Estimation
 
-1. Clone the repository
-2. Install SonarQube and the SonarQiskit plugin
-3. Run the analysis on the circuits located in the `/examples` directory
-4. Compare the computed metrics with the expected values provided in `/validation/expected_metrics.csv`
+The computed metrics are compared against manually validated expected values provided in:
 
-These circuits correspond to well-known quantum algorithms such as Bernstein–Vazirani, Deutsch–Jozsa, Grover, Shor, and Quantum Phase Estimation.
+/validation/expected_metrics.csv
+
+This validation process was used as part of the empirical evaluation of the plugin during research activities related to quantum software quality assessment.
+
+---
+
+## 📚Research Context
+
+This project is part of ongoing research activities in:
+- Quantum Software Engineering (QSE)
+- Software Quality
+- Static Analysis
+- Maintainability Assessment
+- Hybrid Classical-Quantum Systems
+
+The plugin aims to provide tooling support for analyzability and quality evaluation of quantum software systems integrated within classical software environments.
 
 ---
 
