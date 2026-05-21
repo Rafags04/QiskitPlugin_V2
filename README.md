@@ -4,7 +4,7 @@
 ![SonarQube](https://img.shields.io/badge/SonarQube-9.x-orange)
 ![Qiskit](https://img.shields.io/badge/Qiskit-supported-purple)
 
-## 💡Overview
+## 💡 Overview
 
 SonarQiskit is a SonarQube custom plugin designed for static analysis and quality evaluation of hybrid classical-quantum software systems based on Qiskit.
 
@@ -98,7 +98,7 @@ This validation process was used as part of the empirical evaluation of the plug
 
 ---
 
-## 📚Research Context
+## 📚 Research Context
 
 This project is part of ongoing research activities in:
 - Quantum Software Engineering (QSE)
@@ -108,6 +108,12 @@ This project is part of ongoing research activities in:
 - Hybrid Classical-Quantum Systems
 
 The plugin aims to provide tooling support for analyzability and quality evaluation of quantum software systems integrated within classical software environments.
+
+---
+
+## ✍ Cite This Work
+
+If you use this plugin in academic or industrial research, please cite the associated publications.
 
 ---
 
