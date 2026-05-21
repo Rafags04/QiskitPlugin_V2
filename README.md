@@ -4,6 +4,8 @@
 ![SonarQube](https://img.shields.io/badge/SonarQube-9.x-orange)
 ![Qiskit](https://img.shields.io/badge/Qiskit-supported-purple)
 
+---
+
 ## 💡 Overview
 
 SonarQiskit is a SonarQube custom plugin designed for static analysis and quality evaluation of hybrid classical-quantum software systems based on Qiskit.
@@ -15,6 +17,38 @@ The plugin has been developed as part of ongoing research on:
 - hybrid systems maintainability,
 - static analysis for quantum programs,
 - and quantum software metrics.
+
+This repository contains the research artifact associated with the SonarQiskit research line on quantum software quality and static analysis.
+
+---
+
+## 📖 Scientific Publications
+
+The plugin has been developed and used as part of several research works on Quantum Software Engineering, software quality, hybrid systems, and quantum software evaluation.
+
+### Information and Software Technology (IST)
+
+**Service engineering for quantum computing: Ensuring high-quality quantum services**
+
+- https://www.sciencedirect.com/science/article/abs/pii/S0950584924002489
+
+### SoftwareX (Research Artifact Associated with this Repository)
+
+**SonarQiskit: Extending SonarQube for Quantum Code Quality Analysis**
+
+- SSRN preprint: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6029171
+
+### Science of Computer Programming (SCP)
+
+**Implementing an environment for hybrid software evaluation**
+
+- https://www.sciencedirect.com/science/article/abs/pii/S0167642324000327
+
+### Journal of Universal Computer Science (JUCS)
+
+**Towards a set of metrics for hybrid (quantum/classical) systems maintainability**
+
+- https://lib.jucs.org/article/99348/
 
 ---
 
@@ -113,7 +147,60 @@ The plugin aims to provide tooling support for analyzability and quality evaluat
 
 ## ✍ Cite This Work
 
-If you use this plugin in academic or industrial research, please cite the associated publications.
+If you use this plugin in academic or industrial research, please cite the associated publications listed above.
+
+### BibTeX
+
+```bibtex
+@article{diazmunoz2024hybrid,
+  title = {Implementing an environment for hybrid software evaluation},
+  author = {D{\'i}az-Mu{\~n}oz, Ana and Rodr{\'i}guez, Mois{\'e}s and Piattini, Mario},
+  journal = {Science of Computer Programming},
+  volume = {236},
+  pages = {103109},
+  year = {2024},
+  issn = {0167-6423},
+  doi = {10.1016/j.scico.2024.103109},
+  publisher = {Elsevier},
+  note = {Part of special issue: Quantum Programming for Software Engineering},
+  url = {https://www.sciencedirect.com/science/article/pii/S0167642324000327}
+}
+
+@article{diazmunoz2025sonarqiskit,
+  title = {SonarQiskit: Extending SonarQube for Quantum Code Quality Analysis},
+  author = {D{\'i}az-Mu{\~n}oz, Ana and Oviedo, Jes{\'u}s Ram{\'o}n and Verdugo, Javier and Rodr{\'i}guez, Mois{\'e}s and Cruz-Lemus, Jos{\'e} A.},
+  year = {2025},
+  publisher = {SSRN},
+  doi = {10.2139/ssrn.6029171},
+  url = {https://ssrn.com/abstract=6029171},
+  note = {Available at SSRN}
+}
+
+@article{diaz2025service,
+  title = {Service engineering for quantum computing: Ensuring high-quality quantum services},
+  author = {D{\'i}az, Ana and Alvarado-Valiente, Jaime and Romero-\'Alvarez, Javier and Moguel, Enrique and Garcia-Alonso, Jose and Rodr{\'i}guez, Mois{\'e}s and Garc{\'i}a-Rodr{\'i}guez, Ignacio and Murillo, Juan M.},
+  journal = {Information and Software Technology},
+  volume = {179},
+  pages = {107643},
+  year = {2025},
+  issn = {0950-5849},
+  doi = {10.1016/j.infsof.2024.107643},
+  publisher = {Elsevier},
+  url = {https://www.sciencedirect.com/science/article/pii/S0950584924002489}
+}
+
+@article{diazmunoz2024metrics,
+  title = {Towards a set of metrics for hybrid (quantum/classical) systems maintainability},
+  author = {Mu{\~n}oz, Ana D{\'i}az and Monje, M. Rodr{\'i}guez and Velthuis, M. G. P.},
+  journal = {Journal of Universal Computer Science},
+  volume = {30},
+  number = {1},
+  pages = {25--48},
+  year = {2024},
+  doi = {10.3897/jucs.99348},
+  url = {https://lib.jucs.org/article/99348/}
+}
+```
 
 ---
 
