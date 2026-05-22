@@ -152,7 +152,7 @@ If you use this plugin in academic or industrial research, please cite the assoc
 ### BibTeX
 
 ```bibtex
-@article{diazmunoz2024hybrid,
+@article{diazmunoz2024environment,
   title = {Implementing an environment for hybrid software evaluation},
   author = {D{\'i}az-Mu{\~n}oz, Ana and Rodr{\'i}guez, Mois{\'e}s and Piattini, Mario},
   journal = {Science of Computer Programming},
@@ -176,7 +176,7 @@ If you use this plugin in academic or industrial research, please cite the assoc
   note = {Available at SSRN}
 }
 
-@article{diaz2025service,
+@article{diazmunoz2025quantumservice,
   title = {Service engineering for quantum computing: Ensuring high-quality quantum services},
   author = {D{\'i}az, Ana and Alvarado-Valiente, Jaime and Romero-\'Alvarez, Javier and Moguel, Enrique and Garcia-Alonso, Jose and Rodr{\'i}guez, Mois{\'e}s and Garc{\'i}a-Rodr{\'i}guez, Ignacio and Murillo, Juan M.},
   journal = {Information and Software Technology},
