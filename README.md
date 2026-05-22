@@ -166,10 +166,10 @@ If you use this plugin in academic or industrial research, please cite the assoc
   url = {https://www.sciencedirect.com/science/article/pii/S0167642324000327}
 }
 
-@article{diazmunoz2025sonarqiskit,
+@article{diazmunoz2026sonarqiskit,
   title = {SonarQiskit: Extending SonarQube for Quantum Code Quality Analysis},
   author = {D{\'i}az-Mu{\~n}oz, Ana and Oviedo, Jes{\'u}s Ram{\'o}n and Verdugo, Javier and Rodr{\'i}guez, Mois{\'e}s and Cruz-Lemus, Jos{\'e} A.},
-  year = {2025},
+  year = {2026},
   publisher = {SSRN},
   doi = {10.2139/ssrn.6029171},
   url = {https://ssrn.com/abstract=6029171},
