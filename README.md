@@ -5,7 +5,6 @@
 ![Qiskit](https://img.shields.io/badge/Qiskit-supported-purple)
 
 ---
-holi
 
 ## 💡 Overview
 
